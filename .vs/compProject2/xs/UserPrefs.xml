@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9131A0B2-3965-C0BC-7921-326BE04E1BAA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Dreamcar01Tracker.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Dreamcar01Tracker.cs" Line="16" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="compProject2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Dreamcar01Tracker.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8e7cb99e-b6af-46b1-8a51-e4798260838c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
