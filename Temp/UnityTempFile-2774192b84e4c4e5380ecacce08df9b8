@@ -72,18 +72,13 @@
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
-/reference:"/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
-/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
-/reference:"/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll"
-/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
-/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
@@ -303,7 +298,6 @@
 /define:ENABLE_UNITY_COLLECTIONS_CHECKS
 /define:ENABLE_BURST_AOT
 /define:UNITY_TEAM_LICENSE
-/define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "/Applications/Unity/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.timeline/Editor/Actions/ClipsActions.cs"
