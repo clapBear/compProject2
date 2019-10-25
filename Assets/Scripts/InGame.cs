@@ -9,6 +9,7 @@ public class InGame : MonoBehaviour
     public Text scoreText;
     public GameObject player;
     private int score;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,6 @@ public class InGame : MonoBehaviour
     void Update()
     {
         this.score = this.player.GetComponent<CoinScore>().getScore();
-        this.scoreText.text = "Coins: " + this.score;
+        this.scoreText.text = ""+this.score;
     }
 }

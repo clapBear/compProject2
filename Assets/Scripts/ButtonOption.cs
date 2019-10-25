@@ -4,20 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class ButtonOption : MonoBehaviour
 {
- //public void PlayGame()
-   // {
-     //   SceneManager.LoadScene(2);
-    //}
-  public void PlayGame()
+   
+    public void PlayGame()
     {
         SceneManager.LoadScene(1);
     }
-  public void MainMenu ()
+    public void MainMenu ()
     {
         SceneManager.LoadScene(0);
     }
     // below here are track selections buttons
-  public void Track01()
+    public void Track01()
     {
         SceneManager.LoadScene(2);
     }
@@ -29,4 +26,5 @@ public class ButtonOption : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+  
 }
