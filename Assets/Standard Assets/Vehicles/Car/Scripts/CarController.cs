@@ -151,17 +151,18 @@ namespace UnityStandardAssets.Vehicles.Car
             //Set the steer on the front wheels.
             //Assuming that wheels 0 and 1 are the front wheels.
 
-            //m_SteerAngle = steering*m_MaximumSteerAngle;
-            float steer_intensity = 10;
-            float reset_intensity = 100;
+            m_SteerAngle = steering * m_MaximumSteerAngle;
 
-            m_SteerAngle = m_SteerAngle + steering * 0.005f *steer_intensity;
-            m_SteerAngle = Mathf.Clamp(m_SteerAngle, -m_MaximumSteerAngle, m_MaximumSteerAngle);
+            //float steer_intensity = 10;
+            //float reset_intensity = 10;
 
-            if (Mathf.Abs(steering) < 0.03f)
-            {
-                m_SteerAngle = m_SteerAngle - (m_SteerAngle * reset_intensity * 0.005f);
-            }
+            //m_SteerAngle = m_SteerAngle + steering * Time.deltaTime *steer_intensity;
+            //m_SteerAngle = Mathf.Clamp(m_SteerAngle, -m_MaximumSteerAngle, m_MaximumSteerAngle);
+
+            //if (Mathf.Abs(steering) < 0.03f)
+            //{
+            //    m_SteerAngle = m_SteerAngle - (m_SteerAngle * reset_intensity * Time.deltaTime);
+            //}
 
             m_WheelColliders[0].steerAngle = m_SteerAngle;
             m_WheelColliders[1].steerAngle = m_SteerAngle;
