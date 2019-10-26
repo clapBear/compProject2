@@ -188,4 +188,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   incrementAmount: 10
   player: {fileID: 0}
-  Tag: 
