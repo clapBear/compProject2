@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1000011365394840
+--- !u!1 &2559983054443106799
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,30 +8,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4000013555364002}
+  - component: {fileID: 2561241395826067669}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Coin (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000013555364002
+--- !u!4 &2561241395826067669
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000011365394840}
+  m_GameObject: {fileID: 2559983054443106799}
   m_LocalRotation: {x: -0, y: 0.49642566, z: -0, w: 0.8680793}
-  m_LocalPosition: {x: 2.161, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 481.1072, y: -7.8, z: 183.43799}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
-  - {fileID: 4000010444600384}
+  - {fileID: 2561241392710454327}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 59.492004, z: 0}
---- !u!1 &1000013760068644
+--- !u!1 &2559983056838263891
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4000010444600384}
+  - component: {fileID: 2561241392710454327}
   m_Layer: 0
   m_Name: coin
   m_TagString: Untagged
@@ -47,22 +47,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000010444600384
+--- !u!4 &2561241392710454327
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013760068644}
+  m_GameObject: {fileID: 2559983056838263891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4000010888897226}
-  m_Father: {fileID: 4000013555364002}
+  - {fileID: 2561241393054620349}
+  m_Father: {fileID: 2561241395826067669}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000013919102196
+--- !u!1 &2559983056996162691
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,12 +70,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4000010888897226}
-  - component: {fileID: 33000012841361078}
-  - component: {fileID: 23000013388907530}
-  - component: {fileID: 95000012458517520}
-  - component: {fileID: 2157225408085130667}
-  - component: {fileID: 4927237517113161193}
+  - component: {fileID: 2561241393054620349}
+  - component: {fileID: 2589661943922124481}
+  - component: {fileID: 2581926964160724093}
+  - component: {fileID: 2509890948479196263}
+  - component: {fileID: 4500626080858703324}
+  - component: {fileID: 7486248039362629022}
   m_Layer: 0
   m_Name: coin
   m_TagString: Untagged
@@ -83,35 +83,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000010888897226
+--- !u!4 &2561241393054620349
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013919102196}
+  m_GameObject: {fileID: 2559983056996162691}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4000010444600384}
+  m_Father: {fileID: 2561241392710454327}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!33 &33000012841361078
+--- !u!33 &2589661943922124481
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013919102196}
+  m_GameObject: {fileID: 2559983056996162691}
   m_Mesh: {fileID: 4300000, guid: 242d0c84f77361d4abc018c8b39c5d92, type: 3}
---- !u!23 &23000013388907530
+--- !u!23 &2581926964160724093
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013919102196}
+  m_GameObject: {fileID: 2559983056996162691}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -142,14 +142,14 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!95 &95000012458517520
+--- !u!95 &2509890948479196263
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013919102196}
+  m_GameObject: {fileID: 2559983056996162691}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 242d0c84f77361d4abc018c8b39c5d92, type: 3}
   m_Controller: {fileID: 9100000, guid: 972a6bb97057f2644a0b8ce0a4b89e68, type: 2}
@@ -161,26 +161,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!135 &2157225408085130667
+--- !u!135 &4500626080858703324
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013919102196}
+  m_GameObject: {fileID: 2559983056996162691}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.12568371
   m_Center: {x: 0.00000049918896, y: 0.006694387, z: -0.00022950774}
---- !u!114 &4927237517113161193
+--- !u!114 &7486248039362629022
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013919102196}
+  m_GameObject: {fileID: 2559983056996162691}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3585602ec1c884321b9067552b3fa8b4, type: 3}
@@ -188,4 +188,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   incrementAmount: 10
   player: {fileID: 0}
-  Tag: 
+  Tag: Dreamcar01
