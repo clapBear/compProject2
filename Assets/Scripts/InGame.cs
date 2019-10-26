@@ -7,8 +7,11 @@ using UnityEngine.UI;
 public class InGame : MonoBehaviour
 {
     public Text scoreText;
+
     public GameObject player;
+
     private int score;
+
 
     // Start is called before the first frame update
     void Start()

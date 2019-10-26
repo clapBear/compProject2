@@ -8,6 +8,8 @@ TagManager:
   - Dreamcar02
   - mycar
   - coin
+  - acc
+  - dec
   layers:
   - Default
   - TransparentFX

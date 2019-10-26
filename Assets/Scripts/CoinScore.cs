@@ -12,6 +12,5 @@ public class CoinScore : MonoBehaviour
 
   public void addScore(int i){
     this.score = this.score + i;
-    Debug.Log(this.score);
   }
 }

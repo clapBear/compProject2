@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SettingPanel : MonoBehaviour
 {
-    public GameObject settingPanel;
+    public GameObject settingPanel; private bool isQuitting;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +19,6 @@ public class SettingPanel : MonoBehaviour
         {
             settingPanel.SetActive(true);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void PauseGame()
@@ -37,9 +33,10 @@ public class SettingPanel : MonoBehaviour
 
     public void RestartGame()
     {
-        settingPanel.SetActive(false);
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        settingPanel.SetActive(false); ResumeGame();
+        settingPanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void ResumeGame()
@@ -47,10 +44,12 @@ public class SettingPanel : MonoBehaviour
         settingPanel.SetActive(false);
         Time.timeScale = 1;
         AudioListener.pause = false;
+       
     }
 
     public void ExitGame()
     {
-        SceneManager.LoadScene(0);
+      SceneManager.LoadScene(0);  
     }
+  
 }

@@ -39,6 +39,14 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_RevRangeBoundary = 1f;
         [SerializeField] private float m_SlipLimit;
         [SerializeField] private float m_BrakeTorque;
+        //personal change
+        public float NowSpeed = 0f;
+        public float NowAcc = 0f;
+        public string accTag = "acc";
+        public string decTag = "dec";
+        public bool AccNow = false;
+        public bool DecNow = false;
+
 
         private Quaternion[] m_WheelMeshLocalRotations;
         private Vector3 m_Prevpos, m_Pos;
@@ -75,7 +83,11 @@ namespace UnityStandardAssets.Vehicles.Car
             m_Rigidbody = GetComponent<Rigidbody>();
             m_CurrentTorque = m_FullTorqueOverAllWheels - (m_TractionControl*m_FullTorqueOverAllWheels);
         }
-
+        private void Update()
+        {
+            NowSpeed = CurrentSpeed;
+            NowAcc = AccelInput;
+        }
 
         private void GearChanging()
         {
@@ -190,14 +202,48 @@ namespace UnityStandardAssets.Vehicles.Car
         }
 
 
+        void OnTriggerEnter(Collider col)
+        {
+            if (col.gameObject.tag == accTag)
+            {
+                AccNow = true;
+            }
+            if(col.gameObject.tag == decTag)
+            {
+                DecNow = true;
+            }
+        }
+
+        private void OnTriggerExit(Collider col)
+        {
+            if (col.gameObject.tag == accTag)
+            {
+                AccNow = false;
+            }
+            if(col.gameObject.tag == decTag)
+            {
+                DecNow = false;
+            }
+        }
+
         private void CapSpeed()
         {
             float speed = m_Rigidbody.velocity.magnitude;
+            if(AccNow == true)
+            {
+                speed *= 5f;
+            }
+            if (DecNow == true)
+            {
+                speed *= 0.1f;
+            }
+
             switch (m_SpeedType)
             {
                 case SpeedType.MPH:
 
                     speed *= 2.23693629f;
+                   
                     if (speed > m_Topspeed)
                         m_Rigidbody.velocity = (m_Topspeed/2.23693629f) * m_Rigidbody.velocity.normalized;
                     break;

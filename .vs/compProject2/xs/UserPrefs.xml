@@ -1,15 +1,23 @@
 ﻿<Properties StartupConfiguration="{9131A0B2-3965-C0BC-7921-326BE04E1BAA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DestroyWhenParticlesFinished.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AIInGame.cs">
     <Files>
-      <File FileName="Assets/Scripts/CoinCollision.cs" Line="12" Column="9" />
-      <File FileName="Assets/Scripts/carCollision.cs" />
-      <File FileName="Assets/Scripts/RandomGenerateCoins.cs" />
-      <File FileName="Assets/Scripts/CoinScore.cs" />
-      <File FileName="Assets/Standard Assets/Vehicles/Car/Shaders/Toon.shader" />
-      <File FileName="Assets/Scripts/DestroyWhenParticlesFinished.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/carCollision.cs" Line="9" Column="27" />
+      <File FileName="Assets/Scripts/ShowSpeed.cs" Line="19" Column="6" />
+      <File FileName="Assets/Scripts/AICoinScore.cs" Line="9" Column="19" />
+      <File FileName="Assets/Scripts/AICarCollision.cs" Line="8" Column="27" />
+      <File FileName="Assets/Scripts/InGame.cs" Line="9" Column="4" />
+      <File FileName="Assets/Scripts/AIInGame.cs" Line="17" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="compProject2" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="compProject2" expanded="True" selected="True" />
         </State>
@@ -18,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fa6d8400-de16-4610-981f-0d21f855a53c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e52c3400-e41d-41bf-96ee-d318d945aa2b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -6,10 +6,9 @@ public class CoinCollision : MonoBehaviour
 {
   [Header("Unity Setup")]
   public ParticleSystem deathParticle;
-
-  void OnDestroy()
-  {
+    
+    void OnTriggerEnter()
+    {
         Instantiate(deathParticle, transform.position, Quaternion.identity);
-        Destroy(this.gameObject);
-  }
+    }
 }
