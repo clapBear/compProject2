@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomGenerateCoins : MonoBehaviour
+public class RandomGenerateObstacles : MonoBehaviour
 {
     public Collider boxCollider;
     public Vector3 center;
@@ -15,19 +15,16 @@ public class RandomGenerateCoins : MonoBehaviour
         center = boxCollider.bounds.center;
         size = boxCollider.bounds.size;
 
-        int randomC = Random.Range(10, 20);
+        int randomO = Random.Range(1,3);
 
-
-        for (int i = 0; i<=randomC; i++)
+        for (int i = 0; i <= randomO; i++)
         {
-            SpawnCoin();
+            SpawnObstacle();
         }
-      
-
     }
-    public void SpawnCoin()
+    public void SpawnObstacle()
     {
-        Vector3 pos = center + new Vector3(Random.Range(-size.x/2, size.x/2), 1.05f*-size.y, Random.Range(-size.z / 2, size.z / 2));
+        Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), 0, Random.Range(-size.z / 2, size.z / 2));
 
         Instantiate(Prefab, pos, Quaternion.identity);
     }
