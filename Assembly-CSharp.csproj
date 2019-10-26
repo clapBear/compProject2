@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\InGame.cs" />
     <Compile Include="Assets\Scripts\LapComplete.cs" />
     <Compile Include="Assets\Scripts\LapTimeManager.cs" />
+    <Compile Include="Assets\Scripts\RandomGenerateCoins.cs" />
     <Compile Include="Assets\Scripts\SettingPanel.cs" />
     <Compile Include="Assets\Scripts\TextColorChange.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
