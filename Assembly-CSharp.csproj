@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\CoinCollision.cs" />
     <Compile Include="Assets\Scripts\CoinScore.cs" />
     <Compile Include="Assets\Scripts\Countdown.cs" />
+    <Compile Include="Assets\Scripts\DestroyWhenParticlesFinished.cs" />
     <Compile Include="Assets\Scripts\Dreamcar01Tracker.cs" />
     <Compile Include="Assets\Scripts\halfPointTrigger.cs" />
     <Compile Include="Assets\Scripts\InGame.cs" />
