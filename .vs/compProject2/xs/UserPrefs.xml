@@ -1,22 +1,14 @@
 ﻿<Properties StartupConfiguration="{9131A0B2-3965-C0BC-7921-326BE04E1BAA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RandomGenerateCoins.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Vehicles/Car/Shaders/Toon.shader">
     <Files>
-      <File FileName="Assets/Scripts/Dreamcar01Tracker.cs" Line="23" Column="26" />
-      <File FileName="Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" Line="386" Column="1" />
-      <File FileName="Assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/RandomGenerateCoins.cs" Line="18" Column="9" />
-      <File FileName="Assets/Scripts/RandomGenerateObstacles.cs" Line="13" Column="10" />
+      <File FileName="Assets/Scripts/CoinCollision.cs" Line="12" Column="5" />
+      <File FileName="Assets/Scripts/carCollision.cs" Line="18" Column="6" />
+      <File FileName="Assets/Scripts/RandomGenerateCoins.cs" Line="30" Column="80" />
+      <File FileName="Assets/Scripts/CoinScore.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Vehicles/Car/Shaders/Toon.shader" Line="1" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="compProject2" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="compProject2" expanded="True" selected="True" />
         </State>
@@ -25,7 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e52c3400-e41d-41bf-96ee-d318d945aa2b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fa6d8400-de16-4610-981f-0d21f855a53c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

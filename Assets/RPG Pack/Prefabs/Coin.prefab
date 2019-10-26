@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4000013555364002}
   m_Layer: 0
   m_Name: Coin
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4000010444600384}
   m_Layer: 0
   m_Name: coin
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,10 +75,10 @@ GameObject:
   - component: {fileID: 23000013388907530}
   - component: {fileID: 95000012458517520}
   - component: {fileID: 2157225408085130667}
-  - component: {fileID: 4927237517113161193}
+  - component: {fileID: 1381230381097853051}
   m_Layer: 0
   m_Name: coin
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,7 +174,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.12568371
   m_Center: {x: 0.00000049918896, y: 0.006694387, z: -0.00022950774}
---- !u!114 &4927237517113161193
+--- !u!114 &1381230381097853051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3585602ec1c884321b9067552b3fa8b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  incrementAmount: 10
+  deathParticle: {fileID: 0}
+  incrementAmount: 0
   player: {fileID: 0}
   Tag: 

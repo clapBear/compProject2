@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class CoinCollision : MonoBehaviour
 {
-  public int incrementAmount;
-  public GameObject player;
-  public string Tag;
+  [Header("Unity Serup")]
+  public ParticleSystem deathParticle;
 
-  void OnTriggerEnter(Collider col)
+  void OnDestroy()
   {
-    if (col.gameObject.tag != Tag)
-    {
-        this.player.GetComponent<CoinScore>().addScore(incrementAmount);
-    }
-      Destroy(this.gameObject);
+    
   }
 }

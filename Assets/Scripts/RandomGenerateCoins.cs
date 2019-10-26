@@ -27,7 +27,7 @@ public class RandomGenerateCoins : MonoBehaviour
     }
     public void SpawnCoin()
     {
-        Vector3 pos = center + new Vector3(Random.Range(-size.x/2, size.x/2), 1.05f*-size.y, Random.Range(-size.z / 2, size.z / 2));
+        Vector3 pos = center + new Vector3(Random.Range(-size.x/2, size.x/2), -size.y, Random.Range(-size.z / 2, size.z / 2));
 
         Instantiate(Prefab, pos, Quaternion.identity);
     }
