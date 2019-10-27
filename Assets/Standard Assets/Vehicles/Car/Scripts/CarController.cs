@@ -251,15 +251,6 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             float speed = m_Rigidbody.velocity.magnitude;
 
-            if(AccNow == true)
-            {
-                speed *= 5f;
-            }
-            if (DecNow == true)
-            {
-                speed *= 0.1f;
-            }
-
             switch (m_SpeedType)
             {
                 case SpeedType.MPH:
@@ -275,6 +266,15 @@ namespace UnityStandardAssets.Vehicles.Car
                     if (speed > m_Topspeed)
                         m_Rigidbody.velocity = (m_Topspeed/3.6f) * m_Rigidbody.velocity.normalized;
                     break;
+            }
+
+            if(AccNow == true)
+            {
+                m_Rigidbody.velocity = (m_Topspeed/2.23693629f) * m_Rigidbody.velocity.normalized * 1.1f;
+            }
+            if (DecNow == true)
+            {
+                m_Rigidbody.velocity = m_Rigidbody.velocity.normalized * 3f;
             }
         }
 
