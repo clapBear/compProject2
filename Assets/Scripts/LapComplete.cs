@@ -12,9 +12,11 @@ public class LapComplete : MonoBehaviour
     public GameObject SecondDisplay;
     public GameObject MilliDisplay;
 
-    void OnTriggerEnter()
-    {
 
+    public GameObject RankPanel;
+
+    void OnTriggerEnter(Collider col)
+    {
         if (LapTimeManager.SecondCount <= 9)
         {
             SecondDisplay.GetComponent<Text>().text = "0" + LapTimeManager.SecondCount + ".";
@@ -39,7 +41,28 @@ public class LapComplete : MonoBehaviour
         LapTimeManager.SecondCount = 0;
         LapTimeManager.MilliCount = 0;
 
-        HalfLapTrig.SetActive(true);
-        LapCompleteTrig.SetActive(false);
+        if(col.tag == "Player")
+        {
+            if (LapCompleteTrig.activeSelf)
+            {
+                ShowRanking();
+            }
+            HalfLapTrig.SetActive(true);
+            LapCompleteTrig.SetActive(false);
+        }
+    }
+    void ShowRanking()
+    {
+        
+        Debug.Log("show ranking");
+        RankPanel.SetActive(true);
+        StartCoroutine(CalcRanking());
+        Time.timeScale = 0;
+    }
+
+    IEnumerator CalcRanking()
+    {
+        yield return new WaitForSeconds(1.0f);
     }
 }
+

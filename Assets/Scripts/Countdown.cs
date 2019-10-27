@@ -12,9 +12,9 @@ public class Countdown : MonoBehaviour
     public GameObject LapTimer;
     public GameObject UserCar;
     public GameObject AICar1;
-    public GameObject AICar2;
+    
     public GameObject AICar3;
-    public GameObject AICar4;
+
 
     void Start()
     {
@@ -55,8 +55,8 @@ public class Countdown : MonoBehaviour
 
         UserCar.GetComponent<CarUserControl>().enabled = true;
         AICar1.GetComponent<CarAIControl>().enabled = true;
-        AICar2.GetComponent<CarAIControl>().enabled = true;
+        
         AICar3.GetComponent<CarAIControl>().enabled = true;
-        AICar4.GetComponent<CarAIControl>().enabled = true;
+        
     }
 }

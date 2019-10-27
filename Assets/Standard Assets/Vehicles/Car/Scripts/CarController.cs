@@ -87,6 +87,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             NowSpeed = CurrentSpeed;
             NowAcc = AccelInput;
+            
         }
 
         private void GearChanging()
@@ -207,24 +208,44 @@ namespace UnityStandardAssets.Vehicles.Car
             if (col.gameObject.tag == accTag)
             {
                 AccNow = true;
+                Destroy(col.gameObject);
+                
             }
             if(col.gameObject.tag == decTag)
             {
                 DecNow = true;
+                Destroy(col.gameObject);
+                
             }
+            StartCoroutine(WaitFor3Seconds());
+            
         }
 
-        private void OnTriggerExit(Collider col)
+        IEnumerator WaitFor3Seconds()
         {
-            if (col.gameObject.tag == accTag)
+            yield return new WaitForSeconds(3.0f);
+            if (AccNow = true)
             {
                 AccNow = false;
             }
-            if(col.gameObject.tag == decTag)
+            if (DecNow = true)
             {
                 DecNow = false;
             }
         }
+
+        //private void OnTriggerExit(Collider col)
+        //{
+        //    if (col.gameObject.tag == accTag)
+        //    {
+        //        AccNow = false;
+        //    }
+        //    if(col.gameObject.tag == decTag)
+        //    {
+        //        DecNow = false;
+
+        //    }
+        //}
 
         private void CapSpeed()
         {
