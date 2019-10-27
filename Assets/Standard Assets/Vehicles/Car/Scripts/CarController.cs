@@ -87,7 +87,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             NowSpeed = CurrentSpeed;
             NowAcc = AccelInput;
-            
+
         }
 
         private void GearChanging()
@@ -209,16 +209,16 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 AccNow = true;
                 Destroy(col.gameObject);
-                
+
             }
             if(col.gameObject.tag == decTag)
             {
                 DecNow = true;
                 Destroy(col.gameObject);
-                
+
             }
             StartCoroutine(WaitFor3Seconds());
-            
+
         }
 
         IEnumerator WaitFor3Seconds()
@@ -250,6 +250,7 @@ namespace UnityStandardAssets.Vehicles.Car
         private void CapSpeed()
         {
             float speed = m_Rigidbody.velocity.magnitude;
+
             if(AccNow == true)
             {
                 speed *= 5f;
@@ -264,7 +265,7 @@ namespace UnityStandardAssets.Vehicles.Car
                 case SpeedType.MPH:
 
                     speed *= 2.23693629f;
-                   
+
                     if (speed > m_Topspeed)
                         m_Rigidbody.velocity = (m_Topspeed/2.23693629f) * m_Rigidbody.velocity.normalized;
                     break;

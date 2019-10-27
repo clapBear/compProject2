@@ -6,6 +6,7 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:"Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -66,7 +67,6 @@
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll"
-/reference:"Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
 /reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
@@ -75,11 +75,9 @@
 /reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
 /reference:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
-/reference:"/Users/CHEESE/Desktop/Github workspace/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll"
-/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
-/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
+/reference:"/Users/yuefanwu/Downloads/compProject2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
@@ -296,7 +294,6 @@
 /define:ENABLE_UNITY_COLLECTIONS_CHECKS
 /define:ENABLE_BURST_AOT
 /define:UNITY_TEAM_LICENSE
-/define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Scripts/AICarCollision.cs"
@@ -320,6 +317,7 @@
 "Assets/Scripts/RandomGenerateObstacles.cs"
 "Assets/Scripts/RandomGenerateSpecialItem.cs"
 "Assets/Scripts/SettingPanel.cs"
+"Assets/Scripts/ShowRanking.cs"
 "Assets/Scripts/ShowSpeed.cs"
 "Assets/Scripts/TextColorChange.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
